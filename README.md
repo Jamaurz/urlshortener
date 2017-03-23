@@ -13,7 +13,7 @@ https://jamaurzurlshortener.herokuapp.com/new/https://www.google.com
 {"original_url":"https://www.google.com","short_url":"https://jamaurzurlshortener.herokuapp.com/F289B0"}
                 
 ## Usage: 
-[href="https://jamaurzurlshortener.herokuapp.com/F289B0" target='_blank'](https://jamaurzurlshortener.herokuapp.com/F289B0)
+[https://jamaurzurlshortener.herokuapp.com/F289B0](https://jamaurzurlshortener.herokuapp.com/F289B0)
                     
 ## Will redirect to:
 https://www.google.com
