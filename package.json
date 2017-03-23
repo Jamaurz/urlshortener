@@ -1,7 +1,7 @@
 {
   "name": "urlshortener",
   "version": "1.0.0",
-  "description": "ffc backend project 2",
+  "description": "ffc backend project 3",
   "main": "server.js",
   "engines": {
     "node": "6.9.5"
@@ -17,7 +17,7 @@
   "author": "Jamaurz",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Jamaurz/urlshortener"
   },
   "license": "ISC",
   "dependencies": {

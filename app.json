@@ -1,6 +1,6 @@
 {
   "name": "URL Shortener Microservice",
   "description": "A Node.js app using Express",
-  "repository": "",
+  "repository": "https://github.com/Jamaurz/urlshortener",
   "keywords": ["node", "express"],
 }
