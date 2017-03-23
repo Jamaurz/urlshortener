@@ -1,0 +1,30 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title URL Shortener Microservice
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+    body
+        .main
+            h1 URL Shortener Microservice
+            h3 FCC
+            if (err)
+                div
+                    h2(style = "color: red;")= err
+            p User Story: I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
+    
+            p User Story: If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.
+            
+            p User Story: When I visit that shortened URL, it will redirect me to my original link.
+        
+            h2 Example creation usage:
+            p https://urlshortener-jamaurz.c9users.io/new/https://www.google.com
+                
+            h2 Example creation output:
+            p {"original_url":"https://www.google.com","short_url":"https://urlshortener-jamaurz.c9users.io/7TS898"}
+                
+            h2 Usage: 
+            p https://urlshortener-jamaurz.c9users.io/7TS898
+                    
+            h2 Will redirect to:
+            p https://www.google.com
